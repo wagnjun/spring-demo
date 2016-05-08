@@ -1,0 +1,23 @@
+group 'io.github.wagnjun'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.springframework:spring-context:4.2.6.RELEASE'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.wagnjun.Application'
+    }
+}
