@@ -1,4 +1,4 @@
-package io.github.wagnjun;
+package io.github.wagnjun.spring.demo.bootstrap;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

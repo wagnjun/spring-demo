@@ -1,4 +1,4 @@
-package io.github.wagnjun;
+package io.github.wagnjun.spring.demo.bootstrap;
 
 /**
  * Created by bata on 16/5/7.
